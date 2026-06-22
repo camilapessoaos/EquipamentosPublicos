@@ -71,7 +71,7 @@ recife-equipamentos-app/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/recife-equipamentos-app.git
+git clone https://github.com/camilapessoaos/EquipamentosPublicos.git 
 cd recife-equipamentos-app
 ```
 
