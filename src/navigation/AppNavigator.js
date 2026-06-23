@@ -12,9 +12,9 @@ export default function AppNavigator() {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Lista">
-                <Stack.Screen name="Lista" component={ListaScreen} options={{ title: 'Equipamentos Públicos' }} />
-                <Stack.Screen name="Detalhe" component={DetalheScreen} options={{ title: 'Detalhes do Equipamento' }} />
-                <Stack.Screen name="Mapa" component={MapaScreen} options={{ title: 'Mapa dos Equipamentos' }} />
+                <Stack.Screen name="Lista" component={ListaScreen} options={{ title: 'Prédios Públicos de Recife' }} />
+                <Stack.Screen name="Detalhe" component={DetalheScreen} options={{ title: 'Detalhes do Prédio' }} />
+                <Stack.Screen name="Mapa" component={MapaScreen} options={{ title: 'Mapa dos Prédios' }} />
                 <Stack.Screen name="Historico" component={HistoricoScreen} options={{ title: 'Histórico de Localizações' }} />
             </Stack.Navigator>
         </NavigationContainer>
